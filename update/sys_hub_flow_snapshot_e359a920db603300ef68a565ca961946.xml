@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>onboard_syspeople_user</internal_name>
+        <label_cache>[{"name":"6924eff7-1cf1-4f15-8036-8e4f58d83ee2.initials","label":"1➛initials","reference":"","reference_display":"initials","type":"string","base_type":"string"},{"name":"6924eff7-1cf1-4f15-8036-8e4f58d83ee2.first_name","label":"1➛first_name","reference":"","reference_display":"first_name","type":"string","base_type":"string"},{"name":"6924eff7-1cf1-4f15-8036-8e4f58d83ee2.last_name","label":"1➛last_name","reference":"","reference_display":"last_name","type":"string","base_type":"string"},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"e8b597c6-763e-411c-a7f5-84ca90450643.last_name","label":"1➛last_name","reference":"","reference_display":"last_name","type":"string","base_type":"string"},{"name":"e8b597c6-763e-411c-a7f5-84ca90450643.first_name","label":"1➛first_name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"e8b597c6-763e-411c-a7f5-84ca90450643.initials","label":"1➛initials","reference":"","reference_display":"initials","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>Onboard Syspeople User</name>
+        <outputs/>
+        <parent_flow/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 08:16:01</sys_created_on>
+        <sys_id>e359a920db603300ef68a565ca961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onboard Syspeople User</sys_name>
+        <sys_package display_value="User Onboarding" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User Onboarding">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_e359a920db603300ef68a565ca961946</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 08:16:01</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e359a920db603300ef68a565ca961946"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e359a920db603300ef68a565ca961946"/>
+</record_update>

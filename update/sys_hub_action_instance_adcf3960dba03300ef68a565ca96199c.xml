@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Syspeople User Onboarding">eab53d68db603300ef68a565ca961958</flow>
+        <order>4.1</order>
+        <parent_ui_id>a3afb547-ca26-41ec-b2d1-31df46d48e05</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 09:53:55</sys_created_on>
+        <sys_id>adcf3960dba03300ef68a565ca96199c</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="User Onboarding" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User Onboarding">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_action_instance_adcf3960dba03300ef68a565ca96199c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 12:20:18</sys_updated_on>
+        <ui_id>fad1124d-e5bd-4ce4-a997-6c641c6189d9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=adcf3960dba03300ef68a565ca96199c"/>
+    <sys_element_mapping action="delete_multiple" query="id=adcf3960dba03300ef68a565ca96199c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>adcf3960dba03300ef68a565ca96199c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 09:53:55</sys_created_on>
+        <sys_id>edcf3960dba03300ef68a565ca9619a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 10:04:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>User {{e0102469-2a21-4da5-b33a-67687b54099d.first_name}} {{e0102469-2a21-4da5-b33a-67687b54099d.last_name}} exists in Azure AD</value>
+    </sys_element_mapping>
+</record_update>

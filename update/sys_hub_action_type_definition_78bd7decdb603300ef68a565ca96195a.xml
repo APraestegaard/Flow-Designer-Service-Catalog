@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="User Management">b0568f4693220300dc2d925cf67ffbb8</category>
+        <copied_from>b761dc26932a0300dc2d925cf67ffbfb</copied_from>
+        <copied_from_name>Look Up User ID</copied_from_name>
+        <description>&amp;amp;amp;lt;p&amp;amp;amp;gt;Return the first User ID found based on the following search criteria.&amp;amp;amp;lt;/p&amp;amp;amp;gt;
+
+&amp;amp;amp;lt;p&amp;amp;amp;gt;&amp;amp;amp;lt;b&amp;amp;amp;gt;Inputs:&amp;amp;amp;lt;/b&amp;amp;amp;gt;&amp;amp;amp;lt;/p&amp;amp;amp;gt;
+&amp;amp;amp;lt;ul&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;&amp;amp;amp;lt;strong&amp;amp;amp;gt;First Name&amp;amp;amp;lt;/strong&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;&amp;amp;amp;lt;strong&amp;amp;amp;gt;Last Name&amp;amp;amp;lt;/strong&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;&amp;amp;amp;lt;strong&amp;amp;amp;gt;Display Name&amp;amp;amp;lt;/strong&amp;amp;amp;gt; - Name displayed in the address book for the user.&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;&amp;amp;amp;lt;strong&amp;amp;amp;gt;User Login ID&amp;amp;amp;lt;/strong&amp;amp;amp;gt; - Login User ID is same as User Principal Name(UPN). &amp;amp;amp;lt;strong&amp;amp;amp;gt;Example:&amp;amp;amp;lt;/strong&amp;amp;amp;gt; johndoe@snc.com.&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;&amp;amp;amp;lt;strong&amp;amp;amp;gt;Email Alias&amp;amp;amp;lt;/strong&amp;amp;amp;gt; - Alias configured for an email account. A single email account can have more than one alias.&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;/ul&amp;amp;amp;gt;
+
+&amp;amp;amp;lt;p&amp;amp;amp;gt;At least one input is required. Using multiple inputs will help to narrow down the search.&amp;amp;amp;lt;/p&amp;amp;amp;gt;
+
+&amp;amp;amp;lt;p&amp;amp;amp;gt;&amp;amp;amp;lt;b&amp;amp;amp;gt;Outputs:&amp;amp;amp;lt;/b&amp;amp;amp;gt;&amp;amp;amp;lt;/p&amp;amp;amp;gt;
+&amp;amp;amp;lt;ul&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;&amp;amp;amp;lt;strong&amp;amp;amp;gt;Status&amp;amp;amp;lt;/strong&amp;amp;amp;gt; - Will be set to &amp;amp;amp;ldquo;User Found&amp;amp;amp;quot; if a single user is found, &amp;amp;amp;quot;User Not Found&amp;amp;amp;quot; if no user is found, &amp;amp;amp;quot;Multiple Users Found&amp;amp;amp;quot; if multiple users are found matching the search criteria, or &amp;amp;amp;ldquo;Error&amp;amp;amp;quot; if a failure in Azure AD occurs.&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;&amp;amp;amp;lt;strong&amp;amp;amp;gt;User ID&amp;amp;amp;lt;/strong&amp;amp;amp;gt; -  First user found with matching criteria in Azure AD.&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;&amp;amp;amp;lt;strong&amp;amp;amp;gt;Error Message&amp;amp;amp;lt;/strong&amp;amp;amp;gt; - Reason for error. Populated only when an error occurs.&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;/ul&amp;amp;amp;gt;
+
+&amp;amp;amp;lt;p&amp;amp;amp;gt;The status will be Error only in case of any failure in Azure AD.&amp;amp;amp;lt;/p&amp;amp;amp;gt;
+
+&amp;amp;amp;lt;p&amp;amp;amp;gt;&amp;amp;amp;lt;b&amp;amp;amp;gt;Error Messages:&amp;amp;amp;lt;/b&amp;amp;amp;gt;&amp;amp;amp;lt;/p&amp;amp;amp;gt; 
+&amp;amp;amp;lt;ul&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;Something went wrong. Response was empty&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;Unauthorized&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;Set at least one of the properties - First Name/Last Name/Display Name/User Login ID/E-Mail Alias&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;Insufficient Permissions. Please Check OAuth Token and scope permission&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;Forbidden Request. Please Check OAuth Token and scope permission&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;Invalid Connection&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;li&amp;amp;amp;gt;Unknown Error&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+&amp;amp;amp;lt;/ul&amp;amp;amp;gt; 
+
+&amp;amp;amp;lt;p&amp;amp;amp;gt;To use this action, a corresponding Azure AD connection and credential must be created and associated with the Azure AD Connection &amp;amp;amp;amp; Credential alias. &amp;amp;amp;lt;a target=&amp;amp;amp;quot;_blank&amp;amp;amp;quot;  href=&amp;amp;amp;quot;http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias&amp;amp;amp;quot;&amp;amp;amp;gt;Learn More&amp;amp;amp;lt;/a&amp;amp;amp;gt;&amp;amp;amp;lt;/p&amp;amp;amp;gt; 
+ 
+&amp;amp;amp;lt;p&amp;amp;amp;gt;&amp;amp;amp;lt;b&amp;amp;amp;gt;Note&amp;amp;amp;lt;/b&amp;amp;amp;gt;: Requires a subscription for production use. &amp;amp;amp;lt;a target=&amp;amp;amp;quot;_blank&amp;amp;amp;quot; href=&amp;amp;amp;quot;https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information&amp;amp;amp;quot;&amp;amp;amp;gt;Read More&amp;amp;amp;lt;/a&amp;amp;amp;gt;&amp;amp;amp;lt;/p&amp;amp;amp;gt;
+</description>
+        <internal_name>look_up_syspeople_user_id</internal_name>
+        <label_cache>[{"name":"{{action.ah_first_name}}","label":"action➛First Name","type":"action","ref":""},{"name":"{{action.ah_last_name}}","label":"action➛Last Name","type":"action","ref":""},{"name":"{{action.ah_display_name}}","label":"action➛Display Name","type":"action","ref":""},{"name":"{{action.ah_user_login_id}}","label":"action➛User Login ID","type":"action","ref":""},{"name":"{{action.ah_email_alias}}","label":"action➛Email Alias","type":"action","ref":""},{"name":"{{step[074283b0-f4fc-4cac-b2b3-76c0c01d3c4a].queryParams}}","label":"step➛Build Query String➛queryParams","type":"step","ref":""},{"name":"{{step[150e438f-093e-48b3-872f-71bf83a5a5b0].response_body}}","label":"step➛Lookup User➛Response Body","type":"step","ref":""},{"name":"{{step[150e438f-093e-48b3-872f-71bf83a5a5b0].status_code}}","label":"step➛Lookup User➛Status Code","type":"step","ref":""},{"name":"{{step[074283b0-f4fc-4cac-b2b3-76c0c01d3c4a].errorMessage}}","label":"step➛Build Query String➛errorMessage","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].s}}","label":"step➛Handle Errors➛s","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].st}}","label":"step➛Handle Errors➛st","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].sta}}","label":"step➛Handle Errors➛sta","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].stat}}","label":"step➛Handle Errors➛stat","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].statu}}","label":"step➛Handle Errors➛statu","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].status}}","label":"step➛Handle Errors➛status","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].e}}","label":"step➛Handle Errors➛e","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].er}}","label":"step➛Handle Errors➛er","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].err}}","label":"step➛Handle Errors➛err","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].erro}}","label":"step➛Handle Errors➛erro","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].error}}","label":"step➛Handle Errors➛error","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].errorM}}","label":"step➛Handle Errors➛errorM","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].errorMe}}","label":"step➛Handle Errors➛errorMe","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].errorMes}}","label":"step➛Handle Errors➛errorMes","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].errorMess}}","label":"step➛Handle Errors➛errorMess","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].errorMessa}}","label":"step➛Handle Errors➛errorMessa","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].errorMessag}}","label":"step➛Handle Errors➛errorMessag","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].errorMessage}}","label":"step➛Handle Errors➛errorMessage","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].i}}","label":"step➛Handle Errors➛i","type":"step","ref":""},{"name":"{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].id}}","label":"step➛Handle Errors➛id","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Look Up Syspeople User ID</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 09:44:52</sys_created_on>
+        <sys_id>78bd7decdb603300ef68a565ca96195a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Look Up Syspeople User ID</sys_name>
+        <sys_package display_value="User Onboarding" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User Onboarding">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_78bd7decdb603300ef68a565ca96195a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 09:51:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=78bd7decdb603300ef68a565ca96195a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=78bd7decdb603300ef68a565ca96195a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>78bd7decdb603300ef68a565ca96195a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 09:51:12</sys_created_on>
+        <sys_id>352fb160dba03300ef68a565ca96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 09:51:12</sys_updated_on>
+        <value/>
+        <variable display_value="">b52f7160dba03300ef68a565ca9619ff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=78bd7decdb603300ef68a565ca96195a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Error Message</field>
+        <id>78bd7decdb603300ef68a565ca96195a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 09:44:54</sys_created_on>
+        <sys_id>a9bdbdecdb603300ef68a565ca961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 09:44:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_78bd7decdb603300ef68a565ca96195a</table>
+        <value>{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].errorMessage}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Status</field>
+        <id>78bd7decdb603300ef68a565ca96195a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 09:44:54</sys_created_on>
+        <sys_id>e5bdbdecdb603300ef68a565ca961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 09:44:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_78bd7decdb603300ef68a565ca96195a</table>
+        <value>{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>User ID</field>
+        <id>78bd7decdb603300ef68a565ca96195a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 09:44:54</sys_created_on>
+        <sys_id>6dbdbdecdb603300ef68a565ca961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 09:44:54</sys_updated_on>
+        <table>var__m_sys_hub_action_output_78bd7decdb603300ef68a565ca96195a</table>
+        <value>{{step[28124df6-4e27-4bb1-9fc6-0568758addb5].id}}</value>
+    </sys_element_mapping>
+</record_update>
