@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>f8f1f1bddb6c3300ef68a565ca961941</copied_from>
+        <copied_from_name>New Office365 Group</copied_from_name>
+        <description/>
+        <internal_name>new_office365_group</internal_name>
+        <label_cache>[{"name":"subflow.user_princial_name","label":"Input➛User Princial Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"c9ce1ca0-0be7-4943-9824-0418a55b09ff.Error Message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"c9ce1ca0-0be7-4943-9824-0418a55b09ff.Status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice"},{"name":"c9ce1ca0-0be7-4943-9824-0418a55b09ff.User ID","label":"1➛User ID","reference_display":"User ID","type":"string","base_type":"string"},{"name":"7b02c63b-7220-4d82-8526-ecaf502e298a.status","label":"1➛status","reference_display":"status","type":"choice","base_type":"choice"},{"name":"7b02c63b-7220-4d82-8526-ecaf502e298a.errormessage","label":"1➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string"},{"name":"7b02c63b-7220-4d82-8526-ecaf502e298a.answer","label":"1➛Answer","reference_display":"Answer","type":"boolean","base_type":"boolean"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>New Office365 Group</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-02 06:06:24</sys_created_on>
+        <sys_id>ff02b9fddb6c3300ef68a565ca961950</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>New Office365 Group</sys_name>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_flow_ff02b9fddb6c3300ef68a565ca961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-02 07:18:54</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff02b9fddb6c3300ef68a565ca961950"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ff02b9fddb6c3300ef68a565ca961950"/>
+</record_update>

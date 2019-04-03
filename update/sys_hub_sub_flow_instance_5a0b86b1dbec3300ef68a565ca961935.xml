@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_sub_flow_instance">
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Shared Calender Flow">caca0e71dbec3300ef68a565ca961931</flow>
+        <inputs/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="Verify Office365 User">b4c98a71dbec3300ef68a565ca96190e</subflow>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-02 07:55:31</sys_created_on>
+        <sys_id>5a0b86b1dbec3300ef68a565ca961935</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_sub_flow_instance_5a0b86b1dbec3300ef68a565ca961935</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-02 07:55:49</sys_updated_on>
+        <ui_id>80437cf5-9b49-4b70-a1d7-4b730e8eabaf</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a0b86b1dbec3300ef68a565ca961935"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>5a0b86b1dbec3300ef68a565ca961935</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-02 07:55:31</sys_created_on>
+        <sys_id>9a0b4eb1dbec3300ef68a565ca96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-02 07:55:31</sys_updated_on>
+        <value>ap@syspeople.dk</value>
+        <variable display_value="">70c98a71dbec3300ef68a565ca961910</variable>
+    </sys_variable_value>
+</record_update>

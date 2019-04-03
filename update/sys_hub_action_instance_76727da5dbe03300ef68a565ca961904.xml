@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="New Shared Calender">ca723da5dbe03300ef68a565ca96195e</flow>
+        <order>4.4.1</order>
+        <parent_ui_id>b1ce61dc-ee3b-4a97-8479-cd7808a8db66</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 11:29:45</sys_created_on>
+        <sys_id>76727da5dbe03300ef68a565ca961904</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_action_instance_76727da5dbe03300ef68a565ca961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 11:29:45</sys_updated_on>
+        <ui_id>957f168e-e7ea-4900-a2ba-cb6483ec4780</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=76727da5dbe03300ef68a565ca961904"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76727da5dbe03300ef68a565ca961904</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 11:29:45</sys_created_on>
+        <sys_id>36727da5dbe03300ef68a565ca961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 11:29:45</sys_updated_on>
+        <value>Shared calender request unsuccessfull</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76727da5dbe03300ef68a565ca961904</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 11:29:45</sys_created_on>
+        <sys_id>ba727da5dbe03300ef68a565ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 11:29:45</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=76727da5dbe03300ef68a565ca961904"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>76727da5dbe03300ef68a565ca961904</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 11:29:45</sys_created_on>
+        <sys_id>3a727da5dbe03300ef68a565ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 11:29:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;You requested a Shared Calender in Azure AD with the name of&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="7ab3865b-4d39-4cb1-9aee-7dd906709cb2" data-pillvalue="{{5094838a-209c-477e-a99d-669c671e03dc.SharedCalendar_newName}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="7ab3865b-4d39-4cb1-9aee-7dd906709cb2" data-pillvalue="{{5094838a-209c-477e-a99d-669c671e03dc.SharedCalendar_newName}}"&gt;1➛SharedCalendar_newName&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;The request was unsuccessfull because the referenced proposed new owner&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="559a3130-843f-4069-9f66-b5b2a2531071" data-pillvalue="{{5094838a-209c-477e-a99d-669c671e03dc.SharedCalendar_owner}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="559a3130-843f-4069-9f66-b5b2a2531071" data-pillvalue="{{5094838a-209c-477e-a99d-669c671e03dc.SharedCalendar_owner}}"&gt;1➛SharedCalendar_owner&lt;/span&gt;&lt;/span&gt;&amp;nbsp;could not be found in Azure AD,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Yours truely,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;IT Support&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>76727da5dbe03300ef68a565ca961904</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 11:29:45</sys_created_on>
+        <sys_id>76727da5dbe03300ef68a565ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 11:29:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>76727da5dbe03300ef68a565ca961904</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 11:29:45</sys_created_on>
+        <sys_id>b2727da5dbe03300ef68a565ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 11:29:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Service Catalog_1.request_item.request.requested_for.email}}</value>
+    </sys_element_mapping>
+</record_update>

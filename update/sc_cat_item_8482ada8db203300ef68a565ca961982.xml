@@ -25,7 +25,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Syspeople User Onboarding </name>
+        <name>New Azure AD Shared Calender</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -50,21 +50,21 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <short_description/>
+        <short_description>Request a new or update shared calendar in Microsoft Outlook</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-29 07:50:02</sys_created_on>
         <sys_id>8482ada8db203300ef68a565ca961982</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Syspeople User Onboarding </sys_name>
-        <sys_package display_value="User Onboarding" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>New Azure AD Shared Calender</sys_name>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
         <sys_policy/>
-        <sys_scope display_value="User Onboarding">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
         <sys_update_name>sc_cat_item_8482ada8db203300ef68a565ca961982</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 09:16:06</sys_updated_on>
+        <sys_updated_on>2019-04-01 11:31:32</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>

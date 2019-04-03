@@ -2,21 +2,21 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Syspeople User Onboarding">eab53d68db603300ef68a565ca961958</flow>
+        <flow display_value="Syspeople Lookup User">eab53d68db603300ef68a565ca961958</flow>
         <name>Service Catalog</name>
         <remote_sys_id/>
         <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-29 09:22:27</sys_created_on>
         <sys_id>6898b12cdb603300ef68a565ca961952</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>service_catalog</sys_name>
-        <sys_package display_value="User Onboarding" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
         <sys_policy/>
-        <sys_scope display_value="User Onboarding">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
         <sys_update_name>sys_hub_trigger_instance_6898b12cdb603300ef68a565ca961952</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 12:20:17</sys_updated_on>
+        <sys_updated_on>2019-04-01 06:48:59</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>

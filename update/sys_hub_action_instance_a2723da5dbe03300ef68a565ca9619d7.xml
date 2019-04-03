@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up User ID">8752188993c30300dc2d925cf67ffb84</action_type>
+        <action_type_parent/>
+        <comment>Ensure that proposed owner user object exists in Azure AD</comment>
+        <compiled_snapshot>b761dc26932a0300dc2d925cf67ffbfb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="New Shared Calender">ca723da5dbe03300ef68a565ca96195e</flow>
+        <order>4.1</order>
+        <parent_ui_id>43a44802-33f8-4287-9e9a-828588734769</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 11:29:45</sys_created_on>
+        <sys_id>a2723da5dbe03300ef68a565ca9619d7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a2723da5dbe03300ef68a565ca9619d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 11:29:45</sys_updated_on>
+        <ui_id>03bf0d1b-2b6c-48cc-92f1-1dd250ca8dc5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2723da5dbe03300ef68a565ca9619d7"/>
+    <sys_element_mapping action="delete_multiple" query="id=a2723da5dbe03300ef68a565ca9619d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_user_login_id</field>
+        <id>a2723da5dbe03300ef68a565ca9619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 11:29:45</sys_created_on>
+        <sys_id>66723da5dbe03300ef68a565ca9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 11:29:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_8752188993c30300dc2d925cf67ffb84</table>
+        <value>{{5094838a-209c-477e-a99d-669c671e03dc.SharedCalendar_owner.email}}</value>
+    </sys_element_mapping>
+</record_update>

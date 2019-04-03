@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Syspeople User Onboarding ">8482ada8db203300ef68a565ca961982</cat_item>
+        <cat_item display_value="New Azure AD Shared Calender">8482ada8db203300ef68a565ca961982</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -17,7 +17,7 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <example_text>Morten</example_text>
+        <example_text/>
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
@@ -36,11 +36,11 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>first_name</name>
+        <name>SharedCalendar_newName</name>
         <order>100</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>First name?</question_text>
+        <question_text>Name of the new shared calendar</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -57,16 +57,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-29 07:52:53</sys_created_on>
-        <sys_id>dbb3a1e8db203300ef68a565ca96194f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>First name?</sys_name>
-        <sys_package display_value="User Onboarding" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_created_on>2019-04-01 07:28:24</sys_created_on>
+        <sys_id>dbbaf4addb203300ef68a565ca961901</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Name of the new shared calendar</sys_name>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
         <sys_policy/>
-        <sys_scope display_value="User Onboarding">e28161a8db203300ef68a565ca9619de</sys_scope>
-        <sys_update_name>item_option_new_dbb3a1e8db203300ef68a565ca96194f</sys_update_name>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>item_option_new_dbbaf4addb203300ef68a565ca961901</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 09:59:47</sys_updated_on>
+        <sys_updated_on>2019-04-01 10:26:45</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -84,22 +84,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=dbb3a1e8db203300ef68a565ca96194f"/>
-    <fx_price action="delete_multiple" query="id=dbb3a1e8db203300ef68a565ca96194f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=dbbaf4addb203300ef68a565ca961901"/>
+    <fx_price action="delete_multiple" query="id=dbbaf4addb203300ef68a565ca961901"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="DKK">DKK</currency>
         <field>price_if_checked</field>
-        <id>dbb3a1e8db203300ef68a565ca96194f</id>
+        <id>dbbaf4addb203300ef68a565ca961901</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-29 07:52:53</sys_created_on>
-        <sys_id>6014ada8db203300ef68a565ca9619bd</sys_id>
+        <sys_created_on>2019-04-01 07:28:24</sys_created_on>
+        <sys_id>9f3bb4addb203300ef68a565ca9619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 07:52:53</sys_updated_on>
+        <sys_updated_on>2019-04-01 07:28:24</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -107,16 +107,16 @@
         <amount>0</amount>
         <currency display_value="DKK">DKK</currency>
         <field>rec_price_if_checked</field>
-        <id>dbb3a1e8db203300ef68a565ca96194f</id>
+        <id>dbbaf4addb203300ef68a565ca961901</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-29 07:52:53</sys_created_on>
-        <sys_id>2814ada8db203300ef68a565ca9619bc</sys_id>
+        <sys_created_on>2019-04-01 07:28:24</sys_created_on>
+        <sys_id>df3bb4addb203300ef68a565ca9619d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 07:52:53</sys_updated_on>
+        <sys_updated_on>2019-04-01 07:28:24</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
