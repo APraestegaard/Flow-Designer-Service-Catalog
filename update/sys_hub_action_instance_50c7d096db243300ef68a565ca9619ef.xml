@@ -2,26 +2,26 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Look Up Group ID">3542948993c30300dc2d925cf67ffb61</action_type>
+        <action_type display_value="Look Up Group ID">d62449a6932a0300dc2d925cf67ffb83</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>d62449a6932a0300dc2d925cf67ffb83</compiled_snapshot>
         <display_text/>
         <flow display_value="New Shared Calendar">fbb7d096db243300ef68a565ca961951</flow>
-        <order>6</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-03 12:48:49</sys_created_on>
         <sys_id>50c7d096db243300ef68a565ca9619ef</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
         <sys_policy/>
         <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
         <sys_update_name>sys_hub_action_instance_50c7d096db243300ef68a565ca9619ef</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-03 12:48:49</sys_updated_on>
+        <sys_updated_on>2019-04-12 09:34:27</sys_updated_on>
         <ui_id>2ccba709-c351-44f2-9967-d11c5b99bdc1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=50c7d096db243300ef68a565ca9619ef"/>
@@ -39,15 +39,39 @@
         <value>{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_newName}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_display_name1</field>
+        <id>50c7d096db243300ef68a565ca9619ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:19</sys_created_on>
+        <sys_id>07810609db303300ef68a565ca96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d62449a6932a0300dc2d925cf67ffb83</table>
+        <value>{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_newName}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_group_email_alias</field>
         <id>50c7d096db243300ef68a565ca9619ef</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-03 12:48:49</sys_created_on>
         <sys_id>94c7d096db243300ef68a565ca9619f4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 13:55:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3542948993c30300dc2d925cf67ffb61</table>
+        <value>{{5a46a4d0-f166-4e4b-ad60-d42be2e33a71.mailbox_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_group_email_alias</field>
+        <id>50c7d096db243300ef68a565ca9619ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:19</sys_created_on>
+        <sys_id>c7810609db303300ef68a565ca96195f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-03 12:48:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3542948993c30300dc2d925cf67ffb61</table>
-        <value>{{ecde78ef-718e-464f-a436-af23d682e926.mailbox_name}}</value>
+        <sys_updated_on>2019-04-12 09:34:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d62449a6932a0300dc2d925cf67ffb83</table>
+        <value>{{5a46a4d0-f166-4e4b-ad60-d42be2e33a71.mailbox_name}}</value>
     </sys_element_mapping>
 </record_update>

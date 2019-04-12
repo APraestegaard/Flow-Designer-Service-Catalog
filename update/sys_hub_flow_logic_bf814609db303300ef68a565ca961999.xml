@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">55ce7686db203300ef68a565ca9619d8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="New Shared Calendar">2f814609db303300ef68a565ca961947</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:22</sys_created_on>
+        <sys_id>bf814609db303300ef68a565ca961999</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_bf814609db303300ef68a565ca961999</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:22</sys_updated_on>
+        <ui_id>8d982a13-b388-44ea-adc4-5fae6f8567a6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bf814609db303300ef68a565ca961999"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>bf814609db303300ef68a565ca961999</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:22</sys_created_on>
+        <sys_id>77814609db303300ef68a565ca96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:22</sys_updated_on>
+        <value>"Create Office 365 Group" action fails</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>bf814609db303300ef68a565ca961999</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:22</sys_created_on>
+        <sys_id>b3814609db303300ef68a565ca96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:22</sys_updated_on>
+        <value>{{b2096e4b-a91e-458b-a5e6-e9954d4e2092.Group ID}}NOT LIKE-</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

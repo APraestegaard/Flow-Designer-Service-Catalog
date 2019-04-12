@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">31e5a124dbb03300ef68a565ca96192a</block>
+        <comment/>
+        <connected_to>27843b92-e412-479e-8351-5dcadcf2d337</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="New Shared Calendar">2f814609db303300ef68a565ca961947</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>11.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>486b6d2c-d4f3-4338-b6ca-c7ce84f7d2cd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:22</sys_created_on>
+        <sys_id>3f814609db303300ef68a565ca9619a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_3f814609db303300ef68a565ca9619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:23</sys_updated_on>
+        <ui_id>ec5a1503-074a-4163-93bb-319d60749e17</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3f814609db303300ef68a565ca9619a6"/>
+</record_update>

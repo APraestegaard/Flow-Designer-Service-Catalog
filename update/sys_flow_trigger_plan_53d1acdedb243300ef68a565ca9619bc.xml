@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"53d1acdedb243300ef68a565ca9619bc","name":"plan"}}</plan>
+        <plan_id>f641245edb243300ef68a565ca96197c</plan_id>
+        <snapshot>8fe1ecdedb243300ef68a565ca96197f</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 13:32:59</sys_created_on>
+        <sys_id>53d1acdedb243300ef68a565ca9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d3d1acdedb243300ef68a565ca9619b8</sys_name>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_53d1acdedb243300ef68a565ca9619bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 13:32:59</sys_updated_on>
+        <trigger display_value="">d3d1acdedb243300ef68a565ca9619b8</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

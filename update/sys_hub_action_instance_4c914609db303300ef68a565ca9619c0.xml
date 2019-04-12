@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Parse Azure AD Group Alias">d56279a5dbe03300ef68a565ca9619db</action_type>
+        <action_type_parent/>
+        <comment>Remove empty lines from friendly name</comment>
+        <compiled_snapshot>38107d25dbe03300ef68a565ca9619e9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="New Shared Calendar">2f814609db303300ef68a565ca961947</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:23</sys_created_on>
+        <sys_id>4c914609db303300ef68a565ca9619c0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_action_instance_4c914609db303300ef68a565ca9619c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:23</sys_updated_on>
+        <ui_id>5a46a4d0-f166-4e4b-ad60-d42be2e33a71</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4c914609db303300ef68a565ca9619c0"/>
+    <sys_element_mapping action="delete_multiple" query="id=4c914609db303300ef68a565ca9619c0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calender_name</field>
+        <id>4c914609db303300ef68a565ca9619c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:23</sys_created_on>
+        <sys_id>88914609db303300ef68a565ca9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d56279a5dbe03300ef68a565ca9619db</table>
+        <value>{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_newName}}</value>
+    </sys_element_mapping>
+</record_update>

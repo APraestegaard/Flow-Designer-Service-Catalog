@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add User To Group">ebdf8537cbba13007ddf433df8076de7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>8994a77e53a60300eeadddeeff7b12a5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="New Shared Calendar">2f814609db303300ef68a565ca961947</flow>
+        <order>11.3.1</order>
+        <parent_ui_id>ec5a1503-074a-4163-93bb-319d60749e17</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:24</sys_created_on>
+        <sys_id>98918609db303300ef68a565ca961914</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_action_instance_98918609db303300ef68a565ca961914</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:24</sys_updated_on>
+        <ui_id>5b419633-5e41-44b1-99fe-145fe7cb62f9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=98918609db303300ef68a565ca961914"/>
+    <sys_element_mapping action="delete_multiple" query="id=98918609db303300ef68a565ca961914"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_group_id</field>
+        <id>98918609db303300ef68a565ca961914</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:24</sys_created_on>
+        <sys_id>1c918609db303300ef68a565ca961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ebdf8537cbba13007ddf433df8076de7</table>
+        <value>{{b2096e4b-a91e-458b-a5e6-e9954d4e2092.Group ID}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_user_id</field>
+        <id>98918609db303300ef68a565ca961914</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-12 09:34:24</sys_created_on>
+        <sys_id>58918609db303300ef68a565ca961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-12 09:34:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ebdf8537cbba13007ddf433df8076de7</table>
+        <value>{{2e25e22a-3e8c-41b5-9879-578a448c46c8.user_id}}</value>
+    </sys_element_mapping>
+</record_update>

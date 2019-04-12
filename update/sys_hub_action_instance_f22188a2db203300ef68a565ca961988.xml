@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Office 365 Group">d15784b7cbba1300cf04433df8076da3</action_type>
+        <action_type_parent display_value="Create Office 365 Group">a4b5965087220300eead7d5e27cb0ba3</action_type_parent>
+        <comment/>
+        <compiled_snapshot>a4b5965087220300eead7d5e27cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Hi Support">062148a2db203300ef68a565ca9619ca</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 05:48:37</sys_created_on>
+        <sys_id>f22188a2db203300ef68a565ca961988</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
+        <sys_update_name>sys_hub_action_instance_f22188a2db203300ef68a565ca961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 18:01:28</sys_updated_on>
+        <ui_id>b2096e4b-a91e-458b-a5e6-e9954d4e2092</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f22188a2db203300ef68a565ca961988"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f22188a2db203300ef68a565ca961988</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 05:48:37</sys_created_on>
+        <sys_id>362188a2db203300ef68a565ca96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 05:48:37</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">d95784b7cbba1300cf04433df8076dac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f22188a2db203300ef68a565ca961988</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 05:48:37</sys_created_on>
+        <sys_id>722188a2db203300ef68a565ca96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 05:48:37</sys_updated_on>
+        <value>Shared calender group created by ServiceNow</value>
+        <variable display_value="">dd5784b7cbba1300cf04433df8076db8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f22188a2db203300ef68a565ca961988"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_description</field>
+        <id>f22188a2db203300ef68a565ca961988</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 05:48:37</sys_created_on>
+        <sys_id>7a2188a2db203300ef68a565ca96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 05:48:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d15784b7cbba1300cf04433df8076da3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_display_name</field>
+        <id>f22188a2db203300ef68a565ca961988</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 05:48:37</sys_created_on>
+        <sys_id>b62188a2db203300ef68a565ca96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 05:48:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d15784b7cbba1300cf04433df8076da3</table>
+        <value>{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_newName}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_email_enable_distribution_list</field>
+        <id>f22188a2db203300ef68a565ca961988</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 05:48:37</sys_created_on>
+        <sys_id>3e2188a2db203300ef68a565ca96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 05:48:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d15784b7cbba1300cf04433df8076da3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_group_alias</field>
+        <id>f22188a2db203300ef68a565ca961988</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 05:48:37</sys_created_on>
+        <sys_id>fe2188a2db203300ef68a565ca96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 05:48:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d15784b7cbba1300cf04433df8076da3</table>
+        <value>{{ecde78ef-718e-464f-a436-af23d682e926.mailbox_name}}</value>
+    </sys_element_mapping>
+</record_update>
