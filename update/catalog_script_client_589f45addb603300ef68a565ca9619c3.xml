@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Validate calender name</name>
+        <name>Validate calendar name</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	
@@ -37,8 +37,8 @@
 	if(isOnlyNumber)
 		errorMessage += "Calender name must contain letters. \n";
 	
-	if(!(newValue.length > 5 && newValue.length < 30))
-		g_form.addErrorMessage('The name must be between 5 - 30 characters.');	
+	if(!(newValue.length > 5 && newValue.length < 40))
+		g_form.addErrorMessage('The name must be between 5 - 40 characters.');	
 	
 	if(errorMessage != ""){
 		g_form.setValue(variableName, "");
@@ -53,15 +53,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>589f45addb603300ef68a565ca9619c3</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Validate calender name</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Validate calendar name</sys_name>
         <sys_overrides/>
         <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
         <sys_policy/>
         <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
         <sys_update_name>catalog_script_client_589f45addb603300ef68a565ca9619c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-01 10:28:37</sys_updated_on>
+        <sys_updated_on>2019-05-23 11:15:06</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
