@@ -8,20 +8,20 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="New Shared Calendar">fbb7d096db243300ef68a565ca961951</flow>
-        <order>13</order>
+        <order>14</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-23 11:10:51</sys_created_on>
         <sys_id>b4d06192db613300ef68a565ca9619aa</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Shared Calendar" source="x_270790_user_onbo">e28161a8db203300ef68a565ca9619de</sys_package>
         <sys_policy/>
         <sys_scope display_value="Shared Calendar">e28161a8db203300ef68a565ca9619de</sys_scope>
         <sys_update_name>sys_hub_action_instance_b4d06192db613300ef68a565ca9619aa</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-23 11:32:27</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-05-23 12:26:42</sys_updated_on>
         <ui_id>ac8d535d-0ad0-4ab2-abee-71a2b6948d88</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b4d06192db613300ef68a565ca9619aa"/>
@@ -60,17 +60,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-23 11:25:06</sys_created_on>
         <sys_id>dd146556db613300ef68a565ca961950</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-23 11:25:06</sys_updated_on>
+        <sys_updated_on>2019-05-23 12:25:19</sys_updated_on>
         <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
         <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="7eb44755-a986-4510-b982-c1f74b471179" data-pillvalue="{{Service Catalog_1.request_item.sys_created_by}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="7eb44755-a986-4510-b982-c1f74b471179" data-pillvalue="{{Service Catalog_1.request_item.sys_created_by}}"&gt;Trigger➛Requested Item Record➛Created by&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Calender&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="458646e7-10d6-470c-a11e-7edc7eaa6e28" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_newName}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="458646e7-10d6-470c-a11e-7edc7eaa6e28" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_newName}}"&gt;1➛SharedCalendar_newName&lt;/span&gt;&lt;/span&gt; was successfully created.&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Owner was set to&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="27d4bc63-0b2a-4fe7-b47d-0dbc87da32ac" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_owner}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="27d4bc63-0b2a-4fe7-b47d-0dbc87da32ac" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_owner}}"&gt;1➛SharedCalendar_owner&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Members of the group were set to:&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="1fb25f35-c62f-423b-a5d2-10adfa6eef1d" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_members}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="1fb25f35-c62f-423b-a5d2-10adfa6eef1d" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_members}}"&gt;1➛SharedCalendar_members&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Best regards,&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;IT&lt;/p&gt;</value>
+&lt;p data-tinymcerootblock=""&gt;Calender&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="458646e7-10d6-470c-a11e-7edc7eaa6e28" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_newName}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="458646e7-10d6-470c-a11e-7edc7eaa6e28" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_newName}}"&gt;1➛SharedCalendar_newName&lt;/span&gt;&lt;/span&gt; was successfully created.&lt;br /&gt;Owner was set to&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="021f9223-632a-4be1-80eb-8cdf0201e4d1" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_owner.name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="021f9223-632a-4be1-80eb-8cdf0201e4d1" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_owner.name}}"&gt;1➛SharedCalendar_owner➛Name&lt;/span&gt;&lt;/span&gt; (&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="7eb3cd6f-d48a-4e05-952a-e040ae9996ef" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_owner.user_name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="7eb3cd6f-d48a-4e05-952a-e040ae9996ef" data-pillvalue="{{56fc13fd-0540-4376-b97c-7df51f97a192.SharedCalendar_owner.user_name}}"&gt;1➛SharedCalendar_owner➛User ID&lt;/span&gt;&lt;/span&gt;) and&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="457d8c58-3f21-4ac4-9254-c6a8a154b544" data-pillvalue="{{6d8c46d8-c11b-47f8-89bf-33dd1f850bf7.Count}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="457d8c58-3f21-4ac4-9254-c6a8a154b544" data-pillvalue="{{6d8c46d8-c11b-47f8-89bf-33dd1f850bf7.Count}}"&gt;10➛Count&lt;/span&gt;&lt;/span&gt; member(s) were added to the group.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Have a good day,&lt;br /&gt;IT&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
